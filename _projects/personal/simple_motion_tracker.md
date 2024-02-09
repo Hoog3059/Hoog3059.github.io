@@ -4,7 +4,7 @@ title: Simple motion tracker
 description: a project with a background image
 img: assets/projects/eddy_current_brake/simple_motion_tracker.gif
 date: 2022-04-20
-importance: 1
+importance: 20220420
 category: personal
 ---
 
@@ -19,3 +19,6 @@ The tool is written in Python and uses [OpenCV](https://opencv.org/) to do the t
 
     <figcaption class="caption">Example of a fiducial marker being tracked. The green box indicates the searching area. The blue box indicates the found template. The red dot indicates the final logged position.</figcaption>
 </figure>
+
+The code can be found here:
+{% include repository/repo.liquid repository="Hoog3059/template_tracker" style="width: 100%" %}

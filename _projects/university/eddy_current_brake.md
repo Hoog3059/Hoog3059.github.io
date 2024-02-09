@@ -4,7 +4,7 @@ title: Eddy currents braking force
 description: Validating a model for the braking force due to eddy currents.
 img: assets/projects/eddy_current_brake/field_density.png
 date: 2022-04-20
-importance: 1
+importance: 20220420
 category: university
 related_publications: true
 ---
@@ -15,7 +15,7 @@ A fundamental flaw in traditional braking systems is that they are prone to wear
 
 To validate the model, the measured cart trajectory and force-velocity relation were compared to those predicted by the model, by using them to determine the magnetic field strength between the magnets. The field strength determined using the trajectory differed by ($$ 1.3\pm0.4 $$ )% and the field strength determined using the force-velocity relation differed by ( $$ 1.7\pm0.8 $$ )%. Since these are both lower than 5% it is concluded that the model is validated for the used measurement setup.
 
-You can read the full research report [here](/assets/projects/eddy_current_brake/report.pdf).
+You can read the full research report [here](/assets/projects/eddy_current_brake/report.pdf). You can find all data, and the data processing code [here](https://deepnote.com/@Eindproject-Inleidend-Practicum/Eindproject-4c837f89-d637-46c5-96f6-75f46b71cb05).
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6">
