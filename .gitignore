@@ -9,3 +9,6 @@ _site
 Gemfile.lock
 node_modules/
 vendor
+
+# For some reason these files get added when using WSL.
+*.identifier
