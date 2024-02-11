@@ -12,5 +12,5 @@ category: university
 
 You can read the full report (in Dutch) [here](/assets/projects/draad_detectinator/verslag.pdf).
 
-The code for the internal microcontroller can be found here:
+The device contains a microcontroller for doing the measurement. The result of the measurement is sent to a webserver, so it can be shown during a presentation. The code for the internal microcontroller, the website back-end, and the website front-end can be found here:
 {% include repository/repo.liquid repository="Hoog3059/DraadDetectinator" %}
