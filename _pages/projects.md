@@ -2,19 +2,12 @@
 layout: page
 title: projects
 permalink: /projects/
-description: 
+description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
-display_categories: [university, personal]
+display_categories: [work, fun]
 horizontal: false
 ---
-
-Below you can look at some of my projects. They are organized into {{ page.display_categories.size }} categories, which you can click on below.  
-
-**Table of contents**
-{% for category in page.display_categories %}
-- <a id="{{ category }}-toc" href=".#{{ category }}">{{ category }}</a>
-{% endfor %}
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -25,11 +18,11 @@ Below you can look at some of my projects. They are organized into {{ page.displ
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" | reverse %}
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
-    <div class="row">
+    <div class="row row-cols-2">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
